@@ -289,7 +289,6 @@ def main():
         except Exception:
             pass
 
-    # Optional robust-model parameters (try/catch so it works for both models)
     for name in [
         "mu_tau_log",      # (draws, 2)
         "sigma_tau_log",   # (draws, 2)
