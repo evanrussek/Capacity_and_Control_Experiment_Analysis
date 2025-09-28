@@ -14,7 +14,7 @@ Filtered data (post removing 14 human subjects based on c and d'; no monkeys rem
 - `data/monkey_agg_long_FullRun_filtered.csv`: macaque - Data from Brady and Hampton, 2018, Cognition
 - `data/stan_input_long_FullRun_filtered.csv`: combined human+macaque long-format for Stan
 
-### Scripts and models (code/)
+### Code
 
 Basic data preprocessing:
 
