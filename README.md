@@ -29,7 +29,7 @@ Training an emulator model to use for stan fits:
 - `generate_emulator_grid_params.jl`
   - Julia script to generate (η, κ, ν, m, a, q) grid via LHS and call the simulator; used to create training data for the emulator. Note that this needs to be run via a parallel array job
 - `train_emulator.py`
-  - Trains the scikit-learn MLP emulator from simulator-generated output; exports `mlp_emulator.joblib` and `emulator_for_stan.json`.
+  - Trains the scikit-learn MLP emulator from simulator-generated output; exports .joblib (for pics) and .json (for stan)
 
 Fitting stan model:
 - `capacity_control_memory_robust.stan`
@@ -38,9 +38,8 @@ Fitting stan model:
   - Prepares Stan data (using the combined long CSV) and fits model via CmdStanPy.
 
 Plotting and analysis of stan outputs, comparison to data:
-- `plot_posteriors_and_derived.py`
+- `plot_ppc_data_posteriors_derived.py`
   - Loads posterior draws and emulator; plots posteriors over capacity and control, computes derived quantities (IPC, proportion control) and plots those as well.
-- `plot_ppc_and_data.py`
   - Posterior predictive  plots and data-model comparison plots (accuracy vs load, pre-cue timing, and cue reliability).
 - `run_GLMMs.ipynb`
   - Notebook for generalized linear mixed-effects models analysis of data
