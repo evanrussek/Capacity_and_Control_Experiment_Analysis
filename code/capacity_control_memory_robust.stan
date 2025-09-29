@@ -104,7 +104,7 @@ parameters {
   vector<lower=0>[2] sigma_tau_log;      // species-level scatters
   vector[J] z_tau;                       // subject deviations
 
-  // --- NEW: per-subject lapse (toward chance 0.5) ---
+  // -- per-subject lapse (toward chance 0.5) ---
   vector[J] epsilon_logit;               // logit(ε_j)
 }
 
