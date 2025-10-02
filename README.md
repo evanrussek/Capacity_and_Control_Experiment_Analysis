@@ -1,7 +1,9 @@
 ## Evolutionary Simulations
 
 Code S1: Figure plotting code and supports mathematical derivations
+
 Code S2: Evolutionary simulation
+
 Datasets S1-S3: Representative parameter-sweeps solutions from evolutionary simulation
 
 
