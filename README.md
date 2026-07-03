@@ -17,7 +17,7 @@ Prefiltered data (includes all subjects):
 - `data/monkey_agg_long_FullRun.csv`: macaque - Data from Brady and Hampton, 2018, Cognition
 
 Filtered data (post removing 14 human subjects based on c and d'; no monkeys removed )
-- `data/human_agg_long_FullRun_filtered.csv`: human, )
+- `data/human_agg_long_FullRun_filtered.csv`: human
 - `data/monkey_agg_long_FullRun_filtered.csv`: macaque - Data from Brady and Hampton, 2018, Cognition
 - `data/stan_input_long_FullRun_filtered.csv`: combined human+macaque long-format for Stan
 
@@ -50,5 +50,4 @@ Plotting and analysis of stan outputs, comparison to data:
   - Posterior predictive  plots and data-model comparison plots (accuracy vs load, pre-cue timing, and cue reliability).
 - `run_GLMMs.ipynb`
   - Notebook for generalized linear mixed-effects models analysis of data
-
 
